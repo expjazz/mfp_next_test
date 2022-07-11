@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="record" transform="translate(0.000000, -5.000000)" fill="#FF6C58" fill-rule="nonzero">
+            <g id="video-record" transform="translate(0.000000, 5.000000)">
+                <path d="M19.4444444,6 L25,0.666666667 L25,15.3333333 L19.4444444,10 L19.4444444,14.6666667 C19.4444444,15.4666667 18.8888889,16 18.0555556,16 L1.38888889,16 C0.555555556,16 0,15.4666667 0,14.6666667 L0,1.33333333 C0,0.533333333 0.555555556,0 1.38888889,0 L18.0555556,0 C18.8888889,0 19.4444444,0.533333333 19.4444444,1.33333333 L19.4444444,6 Z M10,13 C12.7614237,13 15,10.7614237 15,8 C15,5.23857625 12.7614237,3 10,3 C7.23857625,3 5,5.23857625 5,8 C5,10.7614237 7.23857625,13 10,13 Z M10,11 C8.34314575,11 7,9.65685425 7,8 C7,6.34314575 8.34314575,5 10,5 C11.6568542,5 13,6.34314575 13,8 C13,9.65685425 11.6568542,11 10,11 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

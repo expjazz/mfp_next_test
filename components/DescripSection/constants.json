@@ -1,0 +1,12 @@
+{
+  "mobile": {
+    "maxNameSize": 38,
+    "minNameSize": 24,
+    "multiline": true
+  },
+  "desktop": {
+    "maxNameSize": 48,
+    "minNameSize": 24,
+    "multiline": false
+  }
+}

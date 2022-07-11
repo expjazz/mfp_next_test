@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "pages/api/v1/vodapay/**/*.js": {
+      "includeFiles": "certificates/**"
+    }
+  }
+}

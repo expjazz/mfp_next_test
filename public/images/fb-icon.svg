@@ -1,0 +1,15 @@
+<svg id="icon_social_FB_24a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a5a5a5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="icon_bg" class="cls-1" width="24" height="24" rx="4"/>
+  <path id="f" class="cls-2" d="M30.3,29.135V19.854h3.132l.468-3.633H30.3V13.907c0-1.051.294-1.763,1.8-1.763h1.924V8.9a26.566,26.566,0,0,0-2.793-.141c-2.768,0-4.655,1.688-4.655,4.788v2.673H23.45v3.633h3.124v9.281Z" transform="translate(-13.747 -5.135)"/>
+</svg>

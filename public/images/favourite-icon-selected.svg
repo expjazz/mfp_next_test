@@ -1,0 +1,21 @@
+<svg id="icon_favorite_24b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb12a;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #ff6c58;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="BOUDNRY" class="cls-1" width="24" height="24"/>
+  <path id="Path_165" data-name="Path 165" class="cls-2" d="M1.943,11.5a6.442,6.442,0,0,1,0-9.072h0a6.545,6.545,0,0,1,9.132,0,6.545,6.545,0,0,1,9.132,0,6.442,6.442,0,0,1,0,9.072l-9.132,9.072Z" transform="translate(0.925 1.425)"/>
+  <path id="Path_166" data-name="Path 166" class="cls-3" d="M12,18.7l7.8-7.8a4.031,4.031,0,0,0-5.7-5.7L12,7.4,9.9,5.2a4.031,4.031,0,0,0-5.7,5.7L12,18.7m0,4.2L2.1,13a7.062,7.062,0,0,1,0-9.9,7.063,7.063,0,0,1,9.9,0,7.062,7.062,0,0,1,9.9,0,7.062,7.062,0,0,1,0,9.9Z" transform="translate(-0.075 -0.075)"/>
+</svg>

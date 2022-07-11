@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb12a;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="icon_filter_20a" transform="translate(-810 -44)">
+    <rect id="BOUNDRY" class="cls-1" width="24" height="24" transform="translate(810 44)"/>
+    <path id="icon_filter_20a-2" data-name="icon_filter_20a" class="cls-2" d="M19.043,2H1A1.011,1.011,0,0,1,0,1,1.011,1.011,0,0,1,1,0H19.043a1.011,1.011,0,0,1,1,1A1.011,1.011,0,0,1,19.043,2ZM4.022,5H16.043a1,1,0,0,1,0,2H4.022a1.011,1.011,0,0,1-1-1A.984.984,0,0,1,4.022,5Zm3,5h6a1,1,0,0,1,0,2h-6a1.011,1.011,0,0,1-1-1A1,1,0,0,1,7.022,10Z" transform="translate(812 50)"/>
+  </g>
+</svg>

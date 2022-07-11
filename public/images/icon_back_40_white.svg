@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="icon_back_40a" transform="translate(-380 -16)">
+    <rect id="BOUNDRY" class="cls-1" width="40" height="40" transform="translate(380 16)"/>
+    <g id="icon_back" transform="translate(370 -1)">
+      <path id="Rectangle_177" data-name="Rectangle 177" class="cls-2" d="M0,0H15a1,1,0,0,1,1,1V1a1,1,0,0,1-1,1H0A0,0,0,0,1,0,2V0A0,0,0,0,1,0,0Z" transform="translate(24.808 34.193) rotate(45)"/>
+      <path id="Rectangle_178" data-name="Rectangle 178" class="cls-2" d="M0,0H15a1,1,0,0,1,1,1V1a1,1,0,0,1-1,1H0A0,0,0,0,1,0,2V0A0,0,0,0,1,0,0Z" transform="translate(23.686 35.314) rotate(-45)"/>
+    </g>
+  </g>
+</svg>

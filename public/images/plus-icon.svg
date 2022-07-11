@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #333;
+      }
+
+      .cls-1 {
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="icon_add_40a" transform="translate(-1277 -618)">
+    <g id="_" data-name="+" transform="translate(145.417 102.417)">
+      <line id="Line_20" data-name="Line 20" class="cls-1" y2="20" transform="translate(1151.583 525.583)"/>
+      <line id="Line_21" data-name="Line 21" class="cls-1" y2="20" transform="translate(1161.583 535.583) rotate(90)"/>
+    </g>
+    <g id="Ellipse_44" data-name="Ellipse 44" class="cls-2" transform="translate(1277 618)">
+      <circle class="cls-3" cx="20" cy="20" r="20"/>
+      <circle class="cls-4" cx="20" cy="20" r="18.5"/>
+    </g>
+  </g>
+</svg>

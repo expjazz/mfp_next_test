@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #FFF;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #FFF;
+      }
+    </style>
+  </defs>
+  <g id="icon_share_20a" transform="translate(-795 -65)">
+    <rect id="BOUNDRY" class="cls-1" width="20" height="28" transform="translate(795 65)"/>
+    <path id="Exclusion_2" data-name="Exclusion 2" class="cls-2" d="M16,16.666H4a4.005,4.005,0,0,1-4-4V4A4,4,0,0,1,4,0H7.5V2.084h-3a2,2,0,0,0-2,2v8.5a2,2,0,0,0,2,2h11a2,2,0,0,0,2-2v-8.5a2,2,0,0,0-2-2h-3V0H16a4,4,0,0,1,4,4v8.666A4,4,0,0,1,16,16.666Z" transform="translate(795 76.319)"/>
+    <g id="Group_236" data-name="Group 236" transform="translate(800.287 66.45)">
+      <path id="Union_4" data-name="Union 4" class="cls-2" d="M0,6.667V.833a.833.833,0,0,1,1.667,0V5H5.834a.833.833,0,0,1,0,1.667Z" transform="translate(9.428 4.714) rotate(135)"/>
+      <rect id="Rectangle_142" data-name="Rectangle 142" class="cls-2" width="1.667" height="20" rx="0.833" transform="translate(5.547 21.095) rotate(180)"/>
+    </g>
+  </g>
+</svg>

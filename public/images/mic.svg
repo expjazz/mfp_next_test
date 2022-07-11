@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb12a;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #ff6c58;
+      }
+    </style>
+  </defs>
+  <g id="icon_rec_16b" transform="translate(-811 -408)">
+    <rect id="BOUNDRY" class="cls-1" width="16" height="16" transform="translate(811 408)"/>
+    <g id="icon_record_audio" transform="translate(814 408)">
+      <path id="Path_48" data-name="Path 48" class="cls-2" d="M74.106,0h0a3.106,3.106,0,0,1,3.106,3.106V7.661a3.106,3.106,0,0,1-3.106,3.106h0A3.106,3.106,0,0,1,71,7.661V3.106A3.106,3.106,0,0,1,74.106,0Z" transform="translate(-68.782)"/>
+      <path id="Path_49" data-name="Path 49" class="cls-2" d="M.519,223.9a.517.517,0,0,0-.519.519H0a5.328,5.328,0,0,0,4.805,5.3v2.153H2.734a.519.519,0,0,0-.025,1.037h5.2a.519.519,0,0,0,0-1.037H5.839v-2.153a5.33,5.33,0,0,0,4.805-5.3.519.519,0,0,0-1.037,0,4.287,4.287,0,0,1-8.573,0,.517.517,0,0,0-.516-.519Z" transform="translate(0 -216.904)"/>
+    </g>
+  </g>
+</svg>

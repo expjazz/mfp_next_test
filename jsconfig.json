@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsxImportSource": "@emotion/react"
+
+  }
+}

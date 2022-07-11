@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb12a;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="icon_1pass_24a" transform="translate(-668 -173)">
+    <rect id="BOUNDRY" class="cls-1" width="24" height="24" transform="translate(668 173)"/>
+    <g id="icon_1password_50" transform="translate(666 171)">
+      <path id="Path_37" data-name="Path 37" class="cls-2" d="M14,2A12,12,0,1,0,26,14,12.007,12.007,0,0,0,14,2Zm0,1.043A10.957,10.957,0,1,1,3.043,14,10.949,10.949,0,0,1,14,3.043ZM14,5.13A8.87,8.87,0,1,0,22.87,14,8.876,8.876,0,0,0,14,5.13Zm0,1.043A7.826,7.826,0,1,1,6.174,14,7.818,7.818,0,0,1,14,6.174ZM12.337,8.783v3.13l.832.832-.832.848v5.625h3.326v-3.13l-.832-.832.832-.848V8.783Z"/>
+    </g>
+  </g>
+</svg>
