@@ -8,10 +8,14 @@ export default function Home() {
   const [text, setText] = useState('');
   function printScriptTextContent(script)
 {
+  alert('print function called');
   var xhr = new XMLHttpRequest();
-  xhr.open("GET",script.src)
+  xhr.open("GET","https://appx/web-view.min.js")
   xhr.onreadystatechange = function () {
+    alert('xhr ready')
     if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+      alert('xhr done')
+      alert('xhr response: ' + xhr.responseText);
       console.log("the script text content is",xhr.responseText);
       setText(xhr.responseText);
     }
