@@ -6,6 +6,18 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const [text, setText] = useState('');
+  function printScriptTextContent(script)
+{
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET",script.src)
+  xhr.onreadystatechange = function () {
+    if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+      console.log("the script text content is",xhr.responseText);
+      setText(xhr.responseText);
+    }
+  };
+  xhr.send();
+}
   useEffect(() => {
 		alert('inside usseEffect');
 		const script = document.createElement('script');
@@ -13,7 +25,8 @@ export default function Home() {
     script.id = 'vodascript';
 		script.addEventListener('load', () => {
 			alert('loaded script');
-      setText(document.getElementById('vodascript').text);
+      // setText(document.getElementById('vodascript').text);
+      printScriptTextContent();
 			window.my = true;
 			// setVodapay(true);
 		});
