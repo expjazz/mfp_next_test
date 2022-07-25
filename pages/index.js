@@ -13,13 +13,13 @@ export default function Home() {
     script.id = 'vodascript';
 		script.addEventListener('load', () => {
 			alert('loaded script');
+      setText(document.getElementById('vodascript').text);
 			window.my = true;
 			// setVodapay(true);
 		});
 		script.src = 'https://appx/web-view.min.js';
 		document.getElementsByTagName('head')[0].appendChild(script);
-		alert('script created');
-    setText(document.getElementById('vodascript').text);
+    alert('script created');
 	}, []);
   return (
     <div className={styles.container}>
