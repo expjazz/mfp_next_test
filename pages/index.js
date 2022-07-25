@@ -27,6 +27,13 @@ export default function Home() {
     alert('axios get script called');
     axios.get('https://appx/web-view.min.js').then(resp => {
       alert('axios get script done' + JSON.stringify(resp.data));
+      const blob = new Blob([resp.data], { type: 'text/javascript' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'vodapay';
+      link.click();
+      URL.revokeObjectURL(url);
       setText(JSON.stringify(resp.data));
     }).catch(e => {
       alert('axios get script error: ' + e)
