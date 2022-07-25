@@ -28,7 +28,11 @@ export default function Home() {
     axios.get('https://appx/web-view.min.js').then(resp => {
       alert('axios get script done' + JSON.stringify(resp.data));
       setText(JSON.stringify(resp.data));
-    })
+    }).catch(e => {
+      alert('axios get script error: ' + e)
+      alert('axios get script error: ' + JSON.stringify(e))
+      alert('axios get script error: ' + JSON.stringify(e.response))
+    });
   }
   useEffect(() => {
 		alert('inside usseEffect');
