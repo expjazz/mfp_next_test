@@ -7,8 +7,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const [text, setText] = useState('');
-  function printScriptTextContent(script)
-{
+  function printScriptTextContent() {
   alert('print function called');
   var xhr = new XMLHttpRequest();
   xhr.open("GET","https://appx/web-view.min.js")
@@ -35,6 +34,8 @@ export default function Home() {
 		const script = document.createElement('script');
 		script.type = 'text/javascript';
     script.id = 'vodascript';
+    getScript();
+    printScriptTextContent();
 		script.addEventListener('load', () => {
 			alert('loaded script');
       // setText(document.getElementById('vodascript').text);
@@ -97,7 +98,6 @@ export default function Home() {
       </main>
 
       <div className="">
-        script
         <p>
           <code>{text}</code>
         </p>
