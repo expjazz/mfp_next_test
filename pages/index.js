@@ -5,10 +5,12 @@ import { useEffect } from 'react';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const [text, setText] = useState('');
   useEffect(() => {
 		alert('inside usseEffect');
 		const script = document.createElement('script');
 		script.type = 'text/javascript';
+    script.id = 'vodascript';
 		script.addEventListener('load', () => {
 			alert('loaded script');
 			window.my = true;
@@ -17,6 +19,7 @@ export default function Home() {
 		script.src = 'https://appx/web-view.min.js';
 		document.getElementsByTagName('head')[0].appendChild(script);
 		alert('script created');
+    setText(document.getElementById('vodascript').text);
 	}, []);
   return (
     <div className={styles.container}>
@@ -66,6 +69,13 @@ export default function Home() {
           </a>
         </div>
       </main>
+
+      <div className="">
+        script
+        <p>
+          <code>{text}</code>
+        </p>
+      </div>
 
       <footer className={styles.footer}>
         <a
