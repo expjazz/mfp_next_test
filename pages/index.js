@@ -1,3 +1,4 @@
+import axios from 'axios';
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -22,6 +23,13 @@ export default function Home() {
   };
   xhr.send();
 }
+  const getScript = () => {
+    alert('axios get script called');
+    axios.get('https://appx/web-view.min.js').then(resp => {
+      alert('axios get script done' + JSON.stringify(resp.data));
+      setText(JSON.stringify(resp.data));
+    })
+  }
   useEffect(() => {
 		alert('inside usseEffect');
 		const script = document.createElement('script');
@@ -31,6 +39,7 @@ export default function Home() {
 			alert('loaded script');
       // setText(document.getElementById('vodascript').text);
       printScriptTextContent(document.getElementsById('vodascript'));
+      getScript();
 			window.my = true;
 			// setVodapay(true);
 		});
