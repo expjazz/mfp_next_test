@@ -1,10 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-<<<<<<< HEAD
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
-=======
 import { useEffect } from 'react';
 import styles from '../styles/Home.module.css'
 
@@ -22,7 +18,6 @@ export default function Home() {
 		document.getElementsByTagName('head')[0].appendChild(script);
 		alert('script created');
 	}, []);
->>>>>>> parent of b26bc06 (mfp test)
   return (
     <div className={styles.container}>
       <Head>
