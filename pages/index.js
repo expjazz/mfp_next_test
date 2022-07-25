@@ -26,7 +26,7 @@ export default function Home() {
 		script.addEventListener('load', () => {
 			alert('loaded script');
       // setText(document.getElementById('vodascript').text);
-      printScriptTextContent();
+      printScriptTextContent(document.getElementsById('vodascript'));
 			window.my = true;
 			// setVodapay(true);
 		});
